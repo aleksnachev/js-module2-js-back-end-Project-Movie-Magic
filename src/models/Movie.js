@@ -38,6 +38,18 @@ export default class Movie{
     if (filter._id){
       result = movies.filter(movie => movie._id === filter._id)
     }
+
+    if (filter.title){
+      //todo search by title partial match, case insensitive
+    }
+
+    if (filter.genre){
+      //todo search by genree, exact match, case insensitive
+    }
+
+    if (filter.year){
+      result = result.filter(movie => movie.year === filter.year)
+    }
     return result
   }
 
