@@ -4,9 +4,16 @@ This is Softuni JS Project - Movie Magic
 ## Dev Steps
 
 - [X] Initialize Project
-- [] Add Express Server
-- [] Add Workshop resources
-- [] Setup Handlebars
+- [X] Add Express Server
+- [X] Add Workshop resources
+- [X] Setup Handlebars
+- [] Setup static files
 - [] Return Home Page
+- [] Config Debugging
+- [] 
+- [] 
+- [] 
+- [] 
+
 
 
