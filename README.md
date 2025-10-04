@@ -3,17 +3,23 @@ This is Softuni JS Project - Movie Magic
 
 ## Dev Steps
 
-- [X] Initialize Project
-- [X] Add Express Server
-- [X] Config Debugging
-- [X] Add Workshop resources
-- [X] Setup Handlebars
-- [X] Setup static files
-- [X] Return Home Page
-- [X] Add Layout
-- [X] Render About Page
-- [] 
-- [] 
+### Setup   
+    - [X] Initialize Project
+    - [X] Add Express Server
+    - [X] Config Debugging
+    - [X] Add Workshop resources
+    - [X] Setup Handlebars
+    - [X] Setup static files
+    - [X] Return Home Page
+    - [X] Add Layout
+    - [X] Render About Page
+---
+### Architecture
+    - [X] Add home controller 
+    - [ ] Add movie data layer
+    - [ ] Add movie service
+    - [ ] Render movies on home page
+    - [ ] Show no movies screen
 
-
+    - [ ] Add routes
 
