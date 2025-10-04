@@ -49,7 +49,7 @@ This is Softuni JS Project - Movie Magic
 ### Bonuses
     - [X] Dynamic page title
     - [ ] File Persistance
-    - [ ] Rating
+    - [X] Rating (Temp solution)
 
 
 
