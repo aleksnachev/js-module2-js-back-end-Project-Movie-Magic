@@ -36,13 +36,13 @@ This is Softuni JS Project - Movie Magic
 ### Details Page
     - [X] Add navigation button for details page
     - [X] Add route with param for details page
-    - [ ] Get one movie from service
-    - [ ] Find movie by id from model
-    - [ ] Render details page with dynamic data
+    - [X] Get one movie from service
+    - [X] Find movie by id from model
+    - [X] Render details page with dynamic data
 ### Search Page
 ### Bonuses
     - [ ] File Persistance
-
+    - [ ] Rating
 
 
 
