@@ -42,8 +42,8 @@ This is Softuni JS Project - Movie Magic
 ### Search Page
     - [X] Show static search page
     - [X] Render all movies on search page
-    - [ ] Modify search form
-    - [ ] Filter movies
+    - [X] Modify search form
+    - [X] Filter movies
     - [ ] Remember search words
 
 ### Bonuses

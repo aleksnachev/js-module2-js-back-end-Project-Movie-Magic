@@ -40,7 +40,7 @@ export default class Movie{
     }
 
     if (filter.title){
-      //todo search by title partial match, case insensitive
+      result = result.filter(movie => movie.title.toLowerCase().includes(filter.title.toLowerCase()))
     }
 
     if (filter.genre){
