@@ -8,6 +8,6 @@ const routes = Router()
 
 //Routes
 routes.use(homeController)
-routes.use(movieController)
+routes.use('/movies',movieController)
 
 export default routes
