@@ -5,13 +5,13 @@ This is Softuni JS Project - Movie Magic
 
 - [X] Initialize Project
 - [X] Add Express Server
+- [X] Config Debugging
 - [X] Add Workshop resources
 - [X] Setup Handlebars
-- [] Setup static files
-- [] Return Home Page
-- [] Config Debugging
-- [] 
-- [] 
+- [X] Setup static files
+- [X] Return Home Page
+- [X] Add Layout
+- [X] Render About Page
 - [] 
 - [] 
 
