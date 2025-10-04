@@ -30,7 +30,13 @@ This is Softuni JS Project - Movie Magic
         - [X] Add action
         - [X] Add service
         - [X] Add model method for creating movie
-    - [ ] Redirect after creation
+    - [X] Redirect after creation
+    - [X] Add unique ID for each created movie
+### Details Page
+### Search Page
+### Bonuses
+    - [ ] File Persistance
+
 
     - [ ] Add 404 Page
 

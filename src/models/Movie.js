@@ -1,3 +1,5 @@
+import {v4 as uuid} from 'uuid'
+
 const movies = [
   {
     id: "a3682672-0ee4-1284-8759-35ee2533292v",
@@ -24,13 +26,18 @@ const movies = [
 ];
 
 export default class Movie{
-
   constructor(data){
     Object.assign(this,data)
+
+    this._id = uuid()
   }
 
   static find(){
     return movies.slice()
+  }
+
+  getId(){
+    return this._id
   }
 
   save(){
