@@ -26,10 +26,10 @@ This is Softuni JS Project - Movie Magic
     - [X] Show create movie page
     - [X] Add routes
     - [X] Add Ability to parse user data / Read body data
-    - [ ] Create movie
-        - [ ] Add action
-        - [ ] Add service
-        - [ ] Add model method for creating movie
+    - [X] Create movie
+        - [X] Add action
+        - [X] Add service
+        - [X] Add model method for creating movie
 
     - [ ] Add 404 Page
 
