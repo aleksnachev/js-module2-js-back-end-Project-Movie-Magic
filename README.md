@@ -16,7 +16,7 @@ This is Softuni JS Project - Movie Magic
 ---
 ### Architecture
     - [X] Add home controller 
-    - [ ] Add movie data layer
+    - [X] Add movie data layer
     - [ ] Add movie service
     - [ ] Render movies on home page
     - [ ] Show no movies screen
