@@ -19,7 +19,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Add movie data layer
     - [X] Add movie service
     - [X] Render movies on home page
-    - [ ] Show no movies screen
-
+    - [X] Show no movies screen
+---
     - [ ] Add routes
 
