@@ -25,6 +25,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Add Movie Controller
     - [X] Show create movie page
     - [X] Add routes
+    - [X] Add 404 Page
     - [X] Add Ability to parse user data / Read body data
     - [X] Create movie
         - [X] Add action
@@ -38,6 +39,5 @@ This is Softuni JS Project - Movie Magic
     - [ ] File Persistance
 
 
-    - [ ] Add 404 Page
 
 
