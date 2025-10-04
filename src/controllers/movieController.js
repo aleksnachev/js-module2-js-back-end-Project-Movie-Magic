@@ -4,7 +4,7 @@ import movieService from "../services/movieService.js";
 const movieController = Router()
 
 movieController.get('/create', (req,res) => {
-    res.render('create')
+    res.render('create', {pageTitle:'Create Movie'})
 })
 
 movieController.post('/create', (req,res) => {
@@ -30,7 +30,7 @@ movieController.get('/search', (req,res) => {
     const movies = movieService.getAll(filter)
 
 
-    res.render('search', {movies, filter})
+    res.render('search', {movies, filter, pageTitle: 'Search Movies'})
 })
 
 export default movieController
