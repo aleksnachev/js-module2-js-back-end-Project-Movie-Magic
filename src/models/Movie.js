@@ -51,7 +51,7 @@ export default class Movie{
     return result
   }
 
-  getId(){
+  get Id(){
     return this._id
   }
 

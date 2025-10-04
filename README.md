@@ -40,6 +40,12 @@ This is Softuni JS Project - Movie Magic
     - [X] Find movie by id from model
     - [X] Render details page with dynamic data
 ### Search Page
+    - [X] Show static search page
+    - [ ] Reender all movies on search page
+    - [ ] Modify search form
+    - [ ] Filter movies
+    - [ ] Remember search words
+
 ### Bonuses
     - [ ] File Persistance
     - [ ] Rating
