@@ -15,6 +15,8 @@ app.set('views', 'src/views')
 
 //Setup Middlewares
 app.use(express.static('src/public'))
+//Parse data
+app.use(express.urlencoded())
 
 //Routes
 app.use(routes)

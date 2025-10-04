@@ -24,8 +24,8 @@ This is Softuni JS Project - Movie Magic
 ### Create Movie
     - [X] Add Movie Controller
     - [X] Show create movie page
-    - [ ] Add routes
-    - [ ] Add Ability to parse user data / Read body data
+    - [X] Add routes
+    - [X] Add Ability to parse user data / Read body data
     - [ ] Create movie
         - [ ] Add action
         - [ ] Add service
