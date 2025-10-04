@@ -14,12 +14,23 @@ This is Softuni JS Project - Movie Magic
     - [X] Add Layout
     - [X] Render About Page
 ---
-### Architecture
+### Architecture and dynamic rendering
     - [X] Add home controller 
     - [X] Add movie data layer
     - [X] Add movie service
     - [X] Render movies on home page
     - [X] Show no movies screen
 ---
+### Create Movie
+    - [ ] Add Movie Controller
+    - [ ] Show create movie page
     - [ ] Add routes
+    - [ ] Add Ability to parse user data / Read body data
+    - [ ] Create movie
+        - [ ] Add action
+        - [ ] Add service
+        - [ ] Add model method for creating movie
+
+    - [ ] Add 404 Page
+
 
