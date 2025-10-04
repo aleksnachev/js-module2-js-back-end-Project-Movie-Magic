@@ -34,6 +34,11 @@ This is Softuni JS Project - Movie Magic
     - [X] Redirect after creation
     - [X] Add unique ID for each created movie
 ### Details Page
+    - [X] Add navigation button for details page
+    - [ ] Add route with param for details page
+    - [ ] Get one movie from service
+    - [ ] Find movie by id from model
+    - [ ] Render details page with dynamic data
 ### Search Page
 ### Bonuses
     - [ ] File Persistance
