@@ -22,7 +22,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Show no movies screen
 ---
 ### Create Movie
-    - [X] Add Movie Controller
+    - [X] Add Movie Controller 
     - [X] Show create movie page
     - [X] Add routes
     - [X] Add 404 Page
@@ -41,7 +41,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Render details page with dynamic data
 ### Search Page
     - [X] Show static search page
-    - [ ] Reender all movies on search page
+    - [X] Render all movies on search page
     - [ ] Modify search form
     - [ ] Filter movies
     - [ ] Remember search words
