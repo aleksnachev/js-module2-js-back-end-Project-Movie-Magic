@@ -62,7 +62,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Add movie model
         - [X] Creat movie Schema
         - [X] Creat movie Model
-    - [] Refactor movie service
+    - [X] Import movies to database
 
      
     - [ ] Add new recourses
