@@ -63,6 +63,7 @@ This is Softuni JS Project - Movie Magic
         - [X] Creat movie Schema
         - [X] Creat movie Model
     - [X] Import movies to database
+    - [ ] Fix own property handlebars problem with lean method
 
      
     - [ ] Add new recourses
