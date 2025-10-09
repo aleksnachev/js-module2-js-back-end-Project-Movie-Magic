@@ -56,10 +56,13 @@ This is Softuni JS Project - Movie Magic
 
 ### Setup Database
     - [X] Install mongoose
-    - [ ] Conect to DB
+    - [X] Conect to DB
 
 ### Refactor Movies to use mongoose
     - [ ] Add movie model
      
     - [ ] Add new recourses
+
+### Bonuses
+    - [ ] Env variables
 
