@@ -59,7 +59,10 @@ This is Softuni JS Project - Movie Magic
     - [X] Conect to DB
 
 ### Refactor Movies to use mongoose
-    - [ ] Add movie model
+    - [X] Add movie model
+    - [X] Creat movie Schema
+    - [X] Creat movie Model
+
      
     - [ ] Add new recourses
 
