@@ -1,7 +1,7 @@
 # js-module2-js-back-end-Project-Movie-Magic
 This is Softuni JS Project - Movie Magic
 
-## Dev Steps
+## Dev Steps Workshop 1 - Express and Templating
 
 ### Setup   
     - [X] Initialize Project
@@ -52,4 +52,14 @@ This is Softuni JS Project - Movie Magic
     - [X] Rating (Temp solution)
 
 
+## Dev Steps Workshop 2 - MongoDB Database
+
+### Setup Database
+    - [X] Install mongoose
+    - [ ] Conect to DB
+
+### Refactor Movies to use mongoose
+    - [ ] Add movie model
+     
+    - [ ] Add new recourses
 
