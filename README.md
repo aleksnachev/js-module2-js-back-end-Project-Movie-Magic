@@ -65,12 +65,24 @@ This is Softuni JS Project - Movie Magic
     - [X] Import movies to database
     - [X] Fix own property handlebars problem with lean method
     - [X] General fix for own property problem
-    
+    - [X] Refactor details
+    - [X] General fix for own property problem
+    - [X] Refactor details
+    - [X] Refactor create
+    - [X] Refactor search
+
+### Add cast
+    - [X] Add new resources
+    - [ ] Add cast model
+    - [ ] Create cast service
+    - [ ] Create cast controller
+### Attach cast to movie
 
 
-     
+### Show Cast on Details page
     - [ ] Add new recourses
 
 ### Bonuses
     - [ ] Env variables
 
+    - [ ] 
