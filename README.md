@@ -75,7 +75,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Add new resources
     - [X] Create cast controller
     - [X] Create cast page
-    - [ ] Add cast model
+    - [X] Add cast model
     - [ ] Create cast service
     - [ ] Create cast functionallity
 
@@ -87,5 +87,4 @@ This is Softuni JS Project - Movie Magic
 
 ### Bonuses
     - [ ] Env variables
-
-    - [ ] 
+    - [ ] Name in movie
