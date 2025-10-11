@@ -88,7 +88,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Attach cast functionality
 
 ### Show Cast Details
-    - [ ] Show cast list in attach select
+    - [X] Get movie casts filtered
 
 ### Bonuses
     - [ ] Env variables
