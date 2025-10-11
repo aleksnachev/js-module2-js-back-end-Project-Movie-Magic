@@ -83,7 +83,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Add attach cast button 
     - [X] Add attach cast page
     - [X] Add dynamic data to cast page
-    - [ ] Show cast list in attach select
+    - [X] Show cast list in attach select
     - [ ] Add relation between cast and movie
     - [ ] Attach cast functionallity
 
@@ -94,3 +94,4 @@ This is Softuni JS Project - Movie Magic
     - [ ] Env variables
     - [ ] Name in movie
     - [ ] Add movie views to a folder
+    
