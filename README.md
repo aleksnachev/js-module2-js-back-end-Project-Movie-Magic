@@ -90,6 +90,8 @@ This is Softuni JS Project - Movie Magic
 ### Show Cast Details
     - [X] Get movie casts filtered
     - [X] Show casts on details
+    - [X] Get movie casts using population
+
 
 
 ### Bonuses
