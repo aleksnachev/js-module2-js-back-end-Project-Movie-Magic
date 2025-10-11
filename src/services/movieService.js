@@ -1,7 +1,7 @@
 import Movie from "../models/Movie.js";
 
 export default{
-    async getAll(filter) {
+    async getAll(filter = {}) {
         let query = Movie.find()
 
         if (filter.title){
