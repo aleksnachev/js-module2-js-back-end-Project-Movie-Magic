@@ -60,8 +60,8 @@ This is Softuni JS Project - Movie Magic
 
 ### Refactor Movies to use mongoose
     - [X] Add movie model
-        - [X] Creat movie Schema
-        - [X] Creat movie Model
+        - [X] Create movie Schema
+        - [X] Create movie Model
     - [X] Import movies to database
     - [X] Fix own property handlebars problem with lean method
     - [X] General fix for own property problem
@@ -84,7 +84,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Add attach cast page
     - [X] Add dynamic data to cast page
     - [X] Show cast list in attach select
-    - [ ] Add relation between cast and movie
+    - [X] Add relation between cast and movie
     - [ ] Attach cast functionallity
 
 ### Show Cast Details
@@ -94,4 +94,5 @@ This is Softuni JS Project - Movie Magic
     - [ ] Env variables
     - [ ] Name in movie
     - [ ] Add movie views to a folder
-    
+    - [ ] Filter casts if they are already attached
+
