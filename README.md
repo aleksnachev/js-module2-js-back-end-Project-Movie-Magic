@@ -77,7 +77,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Create cast page
     - [X] Add cast model
     - [X] Create cast service
-    - [X] Create cast functionallity
+    - [X] Create cast functionality
 
 ### Attach cast to movie
     - [X] Add attach cast button 
@@ -85,7 +85,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Add dynamic data to cast page
     - [X] Show cast list in attach select
     - [X] Add relation between cast and movie
-    - [X] Attach cast functionallity
+    - [X] Attach cast functionality
 
 ### Show Cast Details
     - [ ] Show cast list in attach select
