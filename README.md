@@ -76,7 +76,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Create cast controller
     - [X] Create cast page
     - [X] Add cast model
-    - [ ] Create cast service
+    - [X] Create cast service
     - [ ] Create cast functionallity
 
 ### Attach cast to movie
