@@ -81,7 +81,8 @@ This is Softuni JS Project - Movie Magic
 
 ### Attach cast to movie
     - [X] Add atach cast button 
-    - [ ] Add atach cast page
+    - [X] Add atach cast page
+    - [ ] Add dynamic data to cast page
     - [ ] Add relation between cast and movie
     - [ ] Attach cast functionallity
 
