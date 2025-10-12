@@ -95,8 +95,8 @@ This is Softuni JS Project - Movie Magic
 
 
 ### Bonuses
+    - [X] Filter casts if they are already attached
     - [ ] Env variables
     - [ ] Name in movie
     - [ ] Add movie views to a folder
-    - [ ] Filter casts if they are already attached
 

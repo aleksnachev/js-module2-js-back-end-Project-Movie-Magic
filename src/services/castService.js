@@ -10,6 +10,10 @@ export default{
         if (filter.includes){
             query = query.in('_id', filter.includes)
         }
+
+        if (filter.excludes){
+            query = query.nin('_id', filter.excludes)
+        }
         return query
     }
 }
