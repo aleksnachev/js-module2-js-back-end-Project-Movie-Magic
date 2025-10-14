@@ -126,7 +126,8 @@ This is Softuni JS Project - Movie Magic
 ### Authorization
     - [X] Install cookie parser
     - [X] Add auth middleware
-    - [X] Add route guard
+    - [X] Add isAuth route guard
+    - [X] Add isGuest route guard
 
 ### Dynamic Navigation
 
