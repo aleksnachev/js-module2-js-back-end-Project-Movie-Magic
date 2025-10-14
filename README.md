@@ -117,3 +117,5 @@ This is Softuni JS Project - Movie Magic
       - [X] Validate user
       - [X] Validate password
       - [X] Create token
+      - [X] Return token to client
+
