@@ -92,11 +92,16 @@ This is Softuni JS Project - Movie Magic
     - [X] Show casts on details
     - [X] Get movie casts using population
 
-
-
 ### Bonuses
     - [X] Filter casts if they are already attached
     - [ ] Env variables
     - [ ] Name in movie
     - [ ] Add movie views to a folder
 
+## Workshop 3 - Session and Authentication
+
+### Setup initial setup
+    - [ ] Add resources
+    
+### Registration
+    - [ ] 
