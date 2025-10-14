@@ -119,3 +119,19 @@ This is Softuni JS Project - Movie Magic
       - [X] Create token
       - [X] Return token to client
 
+### Logout
+    - [X] Add logout action
+    - [X] Clear coookie
+
+### Authorization
+
+### Dynamic Navigation
+
+### Delete movie
+
+### Edit movie
+
+### Bonuses
+    - [] Automatic login at register
+    - [] Invalidate JWT Token on logout
+    - [] Refresh token
