@@ -113,7 +113,7 @@ This is Softuni JS Project - Movie Magic
 
 ### Login
     - [X] Add login page
-    - [] Handle login page
-    - [] Validate user
-    - [] Validate password
-    - [] Create token
+    - [X] Handle login page
+      - [X] Validate user
+      - [X] Validate password
+      - [X] Create token
