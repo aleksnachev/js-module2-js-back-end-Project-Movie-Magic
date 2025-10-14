@@ -106,7 +106,7 @@ This is Softuni JS Project - Movie Magic
 ### Registration
     - [X] Add new controller
     - [X] Add registration page
-    - [ ] Add User model
+    - [X] Add User model
     - [ ] Add User service
     - [ ] Handle registration (create user in database)
     - [ ] Add password hashing
