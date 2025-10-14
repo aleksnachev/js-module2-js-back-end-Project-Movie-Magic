@@ -124,10 +124,9 @@ This is Softuni JS Project - Movie Magic
     - [X] Clear coookie
 
 ### Authorization
-    - [] Install cookie parser
-    - [] Add auth middleware
-    - [] Valdate user authentication
-    - [] 
+    - [X] Install cookie parser
+    - [X] Add auth middleware
+    - [X] Add route guard
 
 ### Dynamic Navigation
 
