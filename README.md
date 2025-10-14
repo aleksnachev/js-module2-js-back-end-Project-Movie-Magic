@@ -98,7 +98,7 @@ This is Softuni JS Project - Movie Magic
     - [ ] Name in movie
     - [ ] Add movie views to a folder
 
-## Workshop 3 - Session and Authentication
+## Dev Steps Workshop 3 - Session and Authentication
 
 ### Setup initial setup
     - [X] Add resources
@@ -112,4 +112,8 @@ This is Softuni JS Project - Movie Magic
     - [X] Add password hashing
 
 ### Login
-
+    - [X] Add login page
+    - [] Handle login page
+    - [] Validate user
+    - [] Validate password
+    - [] Create token
