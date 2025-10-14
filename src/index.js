@@ -3,6 +3,8 @@ import handlebars from 'express-handlebars'
 import mongoose from 'mongoose'
 
 import routes from './routes.js'
+import cookieParser from 'cookie-parser'
+import authMiddleware from './middlewares/authMiddleware.js'
 
 const app = express()
 
@@ -37,7 +39,10 @@ app.set('views', 'src/views')
 app.use(express.static('src/public'))
 //Parse data
 app.use(express.urlencoded())
-
+//Cookie parser
+app.use(cookieParser())
+//Use auth middleware
+app.use(authMiddleware)
 //Routes
 app.use(routes)
 
