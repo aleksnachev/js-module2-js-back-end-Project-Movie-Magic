@@ -101,7 +101,15 @@ This is Softuni JS Project - Movie Magic
 ## Workshop 3 - Session and Authentication
 
 ### Setup initial setup
-    - [ ] Add resources
-    
+    - [X] Add resources
+
 ### Registration
-    - [ ] 
+    - [X] Add new controller
+    - [ ] Add registration page
+    - [ ] Add User model
+    - [ ] Add User service
+    - [ ] Handle registration (create user in database)
+    - [ ] Add password hashing
+
+### Login
+
