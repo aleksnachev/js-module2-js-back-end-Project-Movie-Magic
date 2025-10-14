@@ -130,6 +130,9 @@ This is Softuni JS Project - Movie Magic
     - [X] Add isGuest route guard
 
 ### Dynamic Navigation
+    - [X] Group navigation by user type(all, authenticated and guest)
+    - [X] Add auth info to handlebars context
+
 
 ### Delete movie
 
