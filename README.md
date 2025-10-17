@@ -146,6 +146,7 @@ This is Softuni JS Project - Movie Magic
 ### Edit movie
     - [X] Add edit page
     - [X] Add dynamic movie data to edit page
+    - [X] Handle edit page
 
 ### Bonuses
     - [] Automatic login at register
