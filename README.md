@@ -140,8 +140,8 @@ This is Softuni JS Project - Movie Magic
     - [X] Add user as creator on movie create
     - [X] Show buttons only for creators
 
-
 ### Delete movie
+    - [X] Add delete action
 
 ### Edit movie
 
