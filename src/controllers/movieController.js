@@ -11,8 +11,9 @@ movieController.get('/create', isAuth, (req,res) => {
 
 movieController.post('/create', isAuth, async (req,res) => {
     const movieData = req.body
+    const userId = req.user.id
 
-    await movieService.create(movieData)
+    await movieService.create(movieData, userId)
 
     res.redirect('/')
     
@@ -21,10 +22,11 @@ movieController.post('/create', isAuth, async (req,res) => {
 movieController.get('/:movieId/details', async (req,res) => {
     const movieId = req.params.movieId
     const movie = await movieService.getOneDetailed(movieId)
-    // const movieCasts = await castService.getAll({includes: movie.casts})
     
     //Temporary solution
     const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating))
+
+    // const isCreator = 
     
     res.render('movies/details', {movie, rating:ratingViewData})
     

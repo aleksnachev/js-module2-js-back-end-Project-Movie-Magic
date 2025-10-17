@@ -136,7 +136,9 @@ This is Softuni JS Project - Movie Magic
 
 ### Show creator controll buttons
     - [X] Add edit and delete buttons on details pagee
-    - [] Show buttons only for creators
+    - [X] Add creator sa relation to movies
+    - [X] Add user as creator on movie create
+    - [ ] Show buttons only for creators
 
 
 ### Delete movie
