@@ -7,7 +7,7 @@ export function generateAuthToken(user){
             id: user.id,
             email: user.email
         }
-
+        // TODO: Make it async
         const token = jwt.sign(payload,JWT_SECRET,{
             expiresIn: '2h'
         })
