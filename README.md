@@ -96,7 +96,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Filter casts if they are already attached
     - [ ] Env variables
     - [ ] Name in movie
-    - [ ] Add movie views to a folder
+    - [X] Add movie views to a folder
 
 ## Dev Steps Workshop 3 - Session and Authentication
 
@@ -150,6 +150,6 @@ This is Softuni JS Project - Movie Magic
 
 ### Bonuses
     - [] Automatic login at register
+    - [X] Edit categories
     - [] Invalidate JWT Token on logout
     - [] Refresh token
-    - [] Edit categories
