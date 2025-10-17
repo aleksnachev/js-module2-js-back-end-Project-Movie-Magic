@@ -26,9 +26,9 @@ movieController.get('/:movieId/details', async (req,res) => {
     //Temporary solution
     const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating))
 
-    // const isCreator = 
+    const isCreator = req.user?.id && movie.creator == req.user.id
     
-    res.render('movies/details', {movie, rating:ratingViewData})
+    res.render('movies/details', {movie, rating:ratingViewData, isCreator})
     
 })
 
