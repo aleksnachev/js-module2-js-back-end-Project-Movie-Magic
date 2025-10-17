@@ -145,9 +145,10 @@ This is Softuni JS Project - Movie Magic
     - [X] Add creator validation
 ### Edit movie
     - [X] Add edit page
-    - [] Add dynamic movie data to edit page
+    - [X] Add dynamic movie data to edit page
 
 ### Bonuses
     - [] Automatic login at register
     - [] Invalidate JWT Token on logout
     - [] Refresh token
+    - [] Edit categories
