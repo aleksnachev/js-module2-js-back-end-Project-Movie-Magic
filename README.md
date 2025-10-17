@@ -142,7 +142,7 @@ This is Softuni JS Project - Movie Magic
 
 ### Delete movie
     - [X] Add delete action
-
+    - [X] Add creator validation
 ### Edit movie
 
 ### Bonuses
