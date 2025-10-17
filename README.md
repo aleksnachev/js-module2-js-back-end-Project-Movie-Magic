@@ -144,6 +144,8 @@ This is Softuni JS Project - Movie Magic
     - [X] Add delete action
     - [X] Add creator validation
 ### Edit movie
+    - [X] Add edit page
+    - [] Add dynamic movie data to edit page
 
 ### Bonuses
     - [] Automatic login at register
