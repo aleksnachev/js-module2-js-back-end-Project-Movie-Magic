@@ -149,7 +149,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Handle edit page
 
 ### Bonuses
-    - [] Automatic login at register
+    - [X] Automatic login at register
     - [X] Edit categories
     - [] Invalidate JWT Token on logout
     - [] Refresh token
