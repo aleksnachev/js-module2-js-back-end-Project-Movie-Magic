@@ -134,6 +134,8 @@ This is Softuni JS Project - Movie Magic
     - [X] Add auth info to handlebars context
 
 
+### Show creator controll buttons
+
 ### Delete movie
 
 ### Edit movie
