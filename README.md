@@ -165,4 +165,6 @@ This is Softuni JS Project - Movie Magic
 ### Bonuses
     - [ ] Dynamic year check
     - [ ] Character name
+    - [ ] Add more password validators
+
 
