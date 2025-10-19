@@ -154,3 +154,10 @@ This is Softuni JS Project - Movie Magic
     - [ ] Invalidate JWT Token on logout
     - [ ] Refresh token
     - [ ] Async jwt
+
+## Workshop 4 - Validation and error handling
+
+### Validation
+    - [X] Validate movie
+    - [ ] Validate cast
+    - [ ] Validate user
