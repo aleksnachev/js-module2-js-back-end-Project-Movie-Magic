@@ -166,6 +166,7 @@ This is Softuni JS Project - Movie Magic
 
 ### Error Handling
     - [X] Add static error notification html
+    - [ ] User register error handling
 
 ### Bonuses
     - [ ] Dynamic year check

@@ -10,11 +10,17 @@ authController.get('/register', isGuest, (req,res) => {
 
 authController.post('/register', isGuest, async (req,res) => {
     const userData = req.body
-    const token = await authService.register(userData)
 
-    res.cookie('auth', token)
+    try {
+        const token = await authService.register(userData)
 
-    res.redirect('/')
+        res.cookie('auth', token)
+
+        res.redirect('/')
+    }catch(err){
+        const errorMessage = Object.values(err.errors).at(0).message
+        res.status(400).render('auth/register', {error: errorMessage})
+    }
 })
 
 authController.get('/login', isGuest, (req,res) => {
