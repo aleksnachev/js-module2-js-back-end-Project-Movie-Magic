@@ -155,7 +155,7 @@ This is Softuni JS Project - Movie Magic
     - [ ] Refresh token
     - [ ] Async jwt
 
-## Workshop 4 - Validation and error handling
+## Dev Steps Workshop 4 - Validation and error handling
 
     - [x] Add recources
 ### Validation
@@ -168,7 +168,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Add static error notification html
     - [X] User register error handling
     - [X] Render error conatiner conditionally
-
+    - [X] Retain form data on error
 
 ### Bonuses
     - [ ] Dynamic year check
