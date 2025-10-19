@@ -169,6 +169,9 @@ This is Softuni JS Project - Movie Magic
     - [X] User register error handling
     - [X] Render error conatiner conditionally
     - [X] Retain form data on error
+    - [X] Extract get error message
+    - [X] User login error handling
+
 
 ### Bonuses
     - [ ] Dynamic year check
