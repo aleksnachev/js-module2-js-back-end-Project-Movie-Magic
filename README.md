@@ -157,10 +157,15 @@ This is Softuni JS Project - Movie Magic
 
 ## Workshop 4 - Validation and error handling
 
+    - [x] Add recources
 ### Validation
     - [X] Validate movie
     - [X] Validate cast
     - [X] Validate user
+    - [X] BONUS: Validate passwords in model 
+
+### Error Handling
+    - [X] Add static error notification html
 
 ### Bonuses
     - [ ] Dynamic year check
