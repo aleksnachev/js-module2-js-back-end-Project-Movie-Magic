@@ -160,7 +160,7 @@ This is Softuni JS Project - Movie Magic
 ### Validation
     - [X] Validate movie
     - [X] Validate cast
-    - [ ] Validate user
+    - [X] Validate user
 
 ### Bonuses
     - [ ] Dynamic year check

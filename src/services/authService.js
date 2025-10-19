@@ -9,6 +9,11 @@ export default{
             throw new Error ('User already exists!')
         }
 
+        // //Check if passwords are the same
+        // if(userData.password !== userData.rePassword){
+        //     throw new Error('Password missmatched!')
+        // }
+
         const user = await User.create(userData)
         const token = generateAuthToken(user)
         return token
