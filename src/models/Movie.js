@@ -4,14 +4,14 @@ const movieSchema = new Schema({
     title:{
         type:String,
         required: [true, 'Movie title is required!'],
-        minLength: [5, 'Title is too short'],
-        match: [/^[a-zA-Z0-9]+$/, 'Title has some invalid characters']
+        minLength: [5, 'Title is too short!'],
+        match: [/^[a-zA-Z0-9]+$/, 'Title has some invalid characters!']
     },
     category:{
         type:String,
         enum: {
             values: ['tv-show', 'animation', 'movie', 'documentary', 'short-film'],
-            message: 'Your category is invalid'
+            message: 'Your category is invalid!'
         },
         required: [true, 'Moive category is required!']
     },
@@ -19,13 +19,13 @@ const movieSchema = new Schema({
         type:String,
         required: [true, 'Movie genre is required!'],
         minLength: [5, 'Movie genre is too short!'],
-        match: [/^[a-zA-Z0-9]+$/, 'Genre has some invalid characters']
+        match: [/^[a-zA-Z0-9]+$/, 'Genre has some invalid characters!']
     },
     director:{
         type:String,
         required: [true, 'Movie director is required!'],
         minLength: [5, 'Movie director is too short!'],
-        match: [/^[a-zA-Z0-9]+$/, 'Director has some invalid characters']
+        match: [/^[a-zA-Z0-9]+$/, 'Director has some invalid characters!']
     },
     year:{
         type:Number,
@@ -36,19 +36,19 @@ const movieSchema = new Schema({
     imageUrl: {
         type: String,
         required: [true, 'Movie image Url is required!'],
-        match: [/^https?:\/\//, 'Image Url is invalid']
+        match: [/^https?:\/\//, 'Image Url is invalid!']
     },
     rating:{
         type: Number,
         required: [true, 'Movie rating is required!'],
-        min: [1, 'Rating cannot be less than 1'],
-        max: [10, 'Rating cannot be more than 10']
+        min: [1, 'Rating cannot be less than 1!'],
+        max: [10, 'Rating cannot be more than 10!']
     },
     description:{
         type:String,
         required: [true, 'Movie description is required!'],
-        minLength: [20, 'Description should be at least 20 characters'],
-        match: [/^[a-zA-Z0-9]+$/, 'Description has some invalid characters']
+        minLength: [20, 'Description should be at least 20 characters!'],
+        match: [/^[a-zA-Z0-9]+$/, 'Description has some invalid characters!']
     },
     casts: [{
         type: Types.ObjectId,
