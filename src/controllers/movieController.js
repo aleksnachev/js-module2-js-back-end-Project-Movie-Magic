@@ -29,15 +29,18 @@ movieController.post('/create', isAuth, async (req,res) => {
 
 movieController.get('/:movieId/details', async (req,res) => {
     const movieId = req.params.movieId
-    const movie = await movieService.getOneDetailed(movieId)
     
+    try{
+    const movie = await movieService.getOneDetailed(movieId)
     //Temporary solution
     const ratingViewData = '&#x2605;'.repeat(Math.trunc(movie.rating))
 
     const isCreator = movie.creator && movie.creator.equals(req.user?.id)
     
     res.render('movies/details', {movie, rating:ratingViewData, isCreator})
-    
+    }catch(err){
+        res.redirect('/404')
+    }
 })
 
 movieController.get('/search', async (req,res) => {
