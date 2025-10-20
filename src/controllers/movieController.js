@@ -43,7 +43,10 @@ movieController.get('/:movieId/details', async (req,res) => {
     
     res.render('movies/details', {movie, rating:ratingViewData, isCreator})
     }catch(err){
+        // Render 404 page withe message(url not changed)
         // res.render('404', {error: 'Movie not found!'})
+
+        // #Redirext with message + url changed
         req.tempData = {error: 'Movie not found!'}
         res.redirect('/404')
     }
