@@ -47,7 +47,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Remember search words
 
 ### Bonuses
-    - [X] Dynamic page title
+    - [X] Dynamic page title simple solution
     - [X] File Persistance
     - [X] Rating (Temp solution)
 
@@ -176,6 +176,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Fix movie category on edit
 
 ### Bonuses
+    - [ ] Dynamic page title addvanced solution
     - [ ] Redirect with message
     - [X] Guard edit from non creator
     - [ ] Dynamic year check

@@ -9,7 +9,10 @@ const movieController = Router()
 
 movieController.get('/create', isAuth, (req,res) => {
     const categories = getMovieCategoryViewData()
-    res.render('movies/create', {pageTitle:'Create Movie', categories})
+    res.render('movies/create', 
+        {
+        // pageTitle:'Create Movie',
+        categories})
 })
 
 movieController.post('/create', isAuth, async (req,res) => {
