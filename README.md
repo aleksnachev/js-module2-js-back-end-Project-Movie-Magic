@@ -132,8 +132,6 @@ This is Softuni JS Project - Movie Magic
 ### Dynamic Navigation
     - [X] Group navigation by user type(all, authenticated and guest)
     - [X] Add auth info to handlebars context
-
-
 ### Show creator controll buttons
     - [X] Add edit and delete buttons on details pagee
     - [X] Add creator sa relation to movies
@@ -156,7 +154,6 @@ This is Softuni JS Project - Movie Magic
     - [ ] Async jwt
 
 ## Dev Steps Workshop 4 - Validation and error handling
-
     - [x] Add recources
 ### Validation
     - [X] Validate movie
@@ -180,7 +177,7 @@ This is Softuni JS Project - Movie Magic
 
 ### Bonuses
     - [ ] Redirect with message
-    - [ ] Guard edit from non creator
+    - [X] Guard edit from non creator
     - [ ] Dynamic year check
     - [ ] Character name
     - [ ] Add more password validators
