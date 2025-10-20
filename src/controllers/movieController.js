@@ -28,8 +28,8 @@ movieController.post('/create', isAuth, async (req,res) => {
 })
 
 movieController.get('/:movieId/details', async (req,res) => {
-    const movieId = req.params.movieId
-    
+    const movieId = req.params.movieId 
+
     try{
     const movie = await movieService.getOneDetailed(movieId)
     //Temporary solution
@@ -39,7 +39,7 @@ movieController.get('/:movieId/details', async (req,res) => {
     
     res.render('movies/details', {movie, rating:ratingViewData, isCreator})
     }catch(err){
-        res.redirect('/404')
+        res.render('404', {error: 'Movie not found!'})
     }
 })
 
