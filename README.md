@@ -175,6 +175,8 @@ This is Softuni JS Project - Movie Magic
     - [X] BONUS: retain movie category after error
     - [X] Create cast error handling
     - [X] Add details page error handling
+    - [X] Error handling on movie edit page
+    - [X] Fix movie category on edit
 
 ### Bonuses
     - [ ] Redirect with message
