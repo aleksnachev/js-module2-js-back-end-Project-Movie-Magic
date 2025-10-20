@@ -7,7 +7,8 @@ import { getErrorMessage } from "../utils/errorUtils.js";
 const movieController = Router()
 
 movieController.get('/create', isAuth, (req,res) => {
-    res.render('movies/create', {pageTitle:'Create Movie'})
+    const categories = getMovieCategoryViewData()
+    res.render('movies/create', {pageTitle:'Create Movie', categories})
 })
 
 movieController.post('/create', isAuth, async (req,res) => {
@@ -19,11 +20,10 @@ movieController.post('/create', isAuth, async (req,res) => {
 
         res.redirect('/')
     }catch(err){
-        res.status(400).render('movies/create', {
+        res.status(400).render('movies/create', { 
             error: getErrorMessage(err), 
-            movie: movieData, 
-            categories: getMovieCategoryViewData(movieData.category)
-        })
+            movie: movieData,  
+            categories: getMovieCategoryViewData(movieData.category)})
     }
 })
 

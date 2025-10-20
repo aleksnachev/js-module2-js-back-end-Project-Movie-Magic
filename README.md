@@ -172,7 +172,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Extract get error message
     - [X] User login error handling
     - [X] Create movie error handling
-    - [ ] BONUS: retain movie category after error
+    - [X] BONUS: retain movie category after error
 
 ### Bonuses
     - [ ] Dynamic year check
