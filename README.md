@@ -176,7 +176,7 @@ This is Softuni JS Project - Movie Magic
     - [X] Fix movie category on edit
 
 ### Bonuses
-    - [ ] Dynamic page title addvanced solution
+    - [X] Dynamic page title addvanced solution using handlebars helper
     - [ ] Redirect with message
     - [X] Guard edit from non creator
     - [ ] Dynamic year check

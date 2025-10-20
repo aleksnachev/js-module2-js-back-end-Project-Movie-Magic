@@ -6,6 +6,8 @@ import routes from './routes.js'
 import cookieParser from 'cookie-parser'
 import authMiddleware from './middlewares/authMiddleware.js'
 import pageHelpers from './helpers/pageHelpers.js'
+import expressSession from 'express-session'
+import { tempDataMiddleware } from './middlewares/tempDataMiddleware.js'
 
 const app = express()
 
@@ -47,6 +49,16 @@ app.use(express.urlencoded())
 app.use(cookieParser())
 //Use auth middleware
 app.use(authMiddleware)
+//Express session
+app.use(expressSession({
+    secret: 'fsdsfagfkdsagnrdnvuioreiqvopot439480u430u3095r834930fj2ju4f',
+    resave: false,
+    saveUninitialized: false,
+    cookie: {secure: false}
+}))
+
+// Add tempData middleware
+app.use(tempDataMiddleware)
 //Routes
 app.use(routes)
 
