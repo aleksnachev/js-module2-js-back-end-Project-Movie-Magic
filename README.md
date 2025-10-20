@@ -173,6 +173,7 @@ This is Softuni JS Project - Movie Magic
     - [X] User login error handling
     - [X] Create movie error handling
     - [X] BONUS: retain movie category after error
+    - [X] Create cast error handling
 
 ### Bonuses
     - [ ] Dynamic year check
